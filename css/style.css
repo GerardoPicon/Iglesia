@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Manjari', sans-serif;
+    color: black;
+}
+
+
+header .container .menu{
+    height: 80px;
+    background-color: #efb810;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    align-items: center;
+    
+}
+
+header .container .menu figure{
+    width: 40%;
+    height: 80px;
+    position: relative;
+    margin: 0;
+    line-height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+header .container .menu img{
+    height: 85px;
+}
+
+header .container .menu h1{
+    font-size: 1.2em;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    font-weight: bold;
+    
+}
+
+header .container .menu nav{
+    right: 0px;
+    height: 80px;
+}
+
+header .container .menu nav ol{
+    display: flex;
+    list-style: none;
+    height: inherit;
+    
+}
+
+header .container .menu nav ol li{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+header .container .menu nav ol li a{
+    margin-right: .4em; 
+    margin-left: .4em;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header .container .menu nav ol li:hover{
+    background-color: #F77F00;
+}
+
+
+/* Empiezan las noticias */
+.noti{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.noti h1{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.noticias{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.not_1,
+.not_2,
+.not_3,
+.not_4{
+    text-align: center;
+    display: inline-block;
+    height: auto;
+    width: 255px;    
+}
+
+.not_1{
+    background-color: #073FB0;
+}
+
+.not_2{
+    background-color: #16B316;
+}
+
+.not_3{
+    background-color: #A8110F;
+}
+
+.not_4{
+    background-color: #E529AD;
+}
+
+
+.not_1 a,
+.not_2 a,
+.not_3 a,
+.not_4 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Manjari', sans-serif;
+    font-size: 1.3em;
+}
+
+.not_1 p,
+.not_2 p,
+.not_3 p,
+.not_4 p{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* AQUI EMPIEZA EL MAIN */
+
+.carrusel{
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#main .carousel-inner img{
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(50%);
+  }
+  
+  #carousel{
+    position: relative;
+  }
+  /* AQUI TERMINA EL MAIN */
+
+  
+
+
+
+  /* EMPIEZA SECCION DE CALENDARIO DESCRIPCION Y GANADOR */
+
+  .container .calendario,
+  .container .descripcion,
+  .container .ganador{
+    
+  }
+
+  .container .calendario{
+    padding: 0;
+    background-color: turquoise;
+    padding-left: 5px;
+  }
+
+  h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+
+    .container .calendario .calendar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+  }
+
+
+  .container .descripcion{
+    text-align: center;
+    background-color: tomato;
+  }
+
+  .container .descripcion h1{
+    font-family: 'Manjari', sans-serif;
+    color: black;
+    font-size: 2em;
+  }
+
+  .container .ganador{
+        background-color: yellowgreen;
+  }
+
+
+   /* TERMINA SECCION DE CALENDARIO DESCRIPCION Y GANADOR */
+
+
+
+
+   /* EMPIEZA EL FOOTER */
+   .footer_mapa{
+     background-color: violet;
+   }
+
+   .footer_donacion{
+    background-color: teal;
+   }
+
+   .footer_contacto{
+    background-color: yellow;
+   }
+
+
+   .container .footer{
+       background-color: pink;
+       height: 200px;
+   }
+
+
+
+
+
+
+   /* CARACTERISTICAS DE SLIDER GENERAL */
+   #slider{
+       padding: 0;
+   }
+
+   #slider .slide{
+    /* position: absolute; */
+    width: 100%;
+    top: 0px;
+    left: 0px;
+  }
+
+  
+  /* SLIDER DE SAN FRANCISCO */
+  #slider #san_francisco{
+    height: 400px;
+    background-color: yellow;
+    display: none;
+  }
+  
+  /* SLIDER DE RECINTO */
+  #slider #recinto{
+    height: 300px;
+    background-color: red;
+    display: none;
+  }
+  
+
+  /* NUESTRO COMITE ORGANIZADOR Y SUS ELEMENTOS  */
+  #slider #comite{
+    height: 200px;
+    background-color: blue;
+    display: none;
+  }
+
+  .organigrama * {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .organigrama ul {
+      padding-top: 20px;
+    position: relative;
+  }
+  
+  .organigrama li {
+      float: left;
+    text-align: center;
+      list-style-type: none;
+      padding: 20px 5px 0px 5px;
+    position: relative;
+  }
+  
+  .organigrama li::before, .organigrama li::after {
+      content: '';
+      position: absolute;
+    top: 0px;
+    right: 50%;
+      border-top: 1px solid #f80;
+      width: 50%;
+    height: 20px;
+  }
+  
+  .organigrama li::after{
+      right: auto;
+    left: 50%;
+      border-left: 1px solid #f80;
+  }
+  
+  .organigrama li:only-child::before, .organigrama li:only-child::after {
+      display: none;
+  }
+  
+  .organigrama li:only-child {
+    padding-top: 0;
+  }
+  
+  .organigrama li:first-child::before, .organigrama li:last-child::after{
+      border: 0 none;
+  }
+  
+  .organigrama li:last-child::before{
+      border-right: 1px solid #f80;
+      -webkit-border-radius: 0 5px 0 0;
+      -moz-border-radius: 0 5px 0 0;
+      border-radius: 0 5px 0 0;
+  }
+  
+  .organigrama li:first-child::after{
+      border-radius: 5px 0 0 0;
+      -webkit-border-radius: 5px 0 0 0;
+      -moz-border-radius: 5px 0 0 0;
+  }
+  
+  .organigrama ul ul::before {
+      content: '';
+      position: absolute;
+    top: 0;
+    left: 50%;
+      border-left: 1px solid #f80;
+      width: 0;
+    height: 20px;
+  }
+  
+  .organigrama li a {
+      border: 1px solid #f80;
+      padding: 1em 0.75em;
+      text-decoration: none;
+      color: #333;
+    background-color: rgba(255,255,255,0.5);
+      font-family: arial, verdana, tahoma;
+      font-size: 0.85em;
+      display: inline-block;
+      border-radius: 5px;
+  }
+  
+  .organigrama li a:hover {
+      border: 1px solid #fff;
+      color: #ddd;
+    background-color: rgba(255,128,0,0.7);
+      display: inline-block;
+  }
+  
+  .organigrama > ul > li > a {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  .organigrama > ul > li > ul > li > a {
+    width: 8em;
+  }
+
+  
